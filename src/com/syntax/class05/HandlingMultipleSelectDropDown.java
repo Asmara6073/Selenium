@@ -30,7 +30,8 @@ public class HandlingMultipleSelectDropDown {
             }
         }
 
-        select.deselectByIndex(5);
+        //select.deselectByIndex(5);
+        //select.deselectByIndex(5);
 
     }
 }
