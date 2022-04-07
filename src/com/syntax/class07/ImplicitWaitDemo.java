@@ -20,7 +20,7 @@ public class ImplicitWaitDemo {
             WebElement startPracticeBtn=driver.findElement(By.id("btn_basic_example"));
             startPracticeBtn.click();
 
-            driver.findElements()
+
 
 
         }
