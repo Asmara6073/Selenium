@@ -14,7 +14,7 @@ public class CalendarHandling {
 
 
         public static void main(String[] args) {
-            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
             WebDriver driver = new ChromeDriver();
             driver.get(url);
 
@@ -28,6 +28,7 @@ public class CalendarHandling {
                 nextbutton.click();
                 dMonthText=dMonth.getText();
             }
+
             List<WebElement> departureDates=driver.findElements(By.xpath("//tbody[@class='dl-datepicker-tbody-0']/tr/td"));
             for(WebElement departureDate:departureDates  ){
                 if (departureDate.getText().equals("13")){
