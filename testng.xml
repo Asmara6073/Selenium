@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/tarikabraham/IdeaProjects/Selenium">
+        <classes>
+            <class name="UnveilAndReflectTests.OpenAboutPageTest">
+                <methods>
+                    <include name="openAboutPageTest"/>
+                </methods>
+            </class>
+            <class name="UnveilAndReflectTests.OpenBlogPageTest">
+                <methods>
+                    <include name="openBlogPageTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
